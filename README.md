@@ -1,70 +1,86 @@
 ### 🛡️ SecureLog Monitor
 
-Monitoramento de logs, detecção de eventos suspeitos e automação de segurança com Wazuh, Python e GitHub Actions.
+Monitoramento de logs, detecção de eventos suspeitos e automação de segurança com Python, Wazuh e GitHub Actions.
+O SecureLog Monitor é um projeto voltado à coleta, análise e monitoramento de logs, com o objetivo de auxiliar na identificação de possíveis incidentes de segurança.
+A proposta é identificar atividades suspeitas, como tentativas de autenticação inválidas, alterações em arquivos sensíveis e execuções não autorizadas, contribuindo para o monitoramento e a análise de eventos de segurança.
+O desenvolvimento é organizado em branches independentes, permitindo separar funcionalidades, etapas de implementação e experimentos, mantendo o projeto modular e facilitando sua evolução.
 
-O SecureLog Monitor é um projeto voltado à coleta, análise e monitoramento de logs, com foco na identificação precoce de possíveis incidentes de segurança. A proposta é auxiliar na identificação de atividades suspeitas, como tentativas de autenticação inválidas, alterações em arquivos sensíveis e execuções não autorizadas.
+---
 
-O desenvolvimento é organizado em branches independentes, permitindo separar as etapas, funcionalidades e experimentos do projeto sem concentrar toda a implementação em uma única branch.
+## 🎯 Objetivos
 
-🎯 Objetivos
-Centralizar e acompanhar eventos relevantes para a segurança.
-Identificar comportamentos potencialmente suspeitos por meio da análise de logs.
-Explorar automações para apoiar a detecção e o tratamento de eventos.
-Integrar ferramentas de monitoramento e fluxos automatizados de desenvolvimento.
-Manter o código organizado por branches, facilitando a evolução e a manutenção do projeto.
-🧰 Tecnologias
+📊 Centralizar e acompanhar eventos relevantes para a segurança.
+🔎 Identificar comportamentos potencialmente suspeitos por meio da análise de logs.
+⚙️ Desenvolver automações para auxiliar na detecção e no tratamento de eventos.
+🔗 Explorar a integração entre ferramentas de monitoramento e fluxos automatizados.
+🌿 Organizar o desenvolvimento por branches, facilitando a manutenção e a evolução do projeto.
+
+---
+
+## 🧰 Tecnologias
+
 Tecnologia	Finalidade
-Wazuh	Monitoramento de segurança e análise de eventos.
-Python	Desenvolvimento de scripts e automações.
-GitHub Actions	Automação de tarefas e execução de workflows.
-Git e GitHub	Controle de versão e organização do desenvolvimento por branches.
+🐍 Python	Desenvolvimento de scripts, processamento de dados e automações.
+🌿 Git e GitHub	Controle de versão e organização do desenvolvimento por branches.
 🌿 Organização do repositório
+O SecureLog Monitor utiliza branches para separar as diferentes partes do desenvolvimento. Cada branch pode conter implementações, funcionalidades ou experimentos específicos, permitindo acompanhar a evolução do projeto de forma organizada.
 
-O projeto utiliza branches para separar partes do desenvolvimento. Dessa forma, cada implementação pode ser consultada individualmente, respeitando seu próprio contexto e estágio de desenvolvimento.
+---
 
-Consulte todas as branches disponíveis:
+## 🔗 Links do projeto:
 
-➡️ Acessar branches do SecureLog Monitor
+📂 Repositório principal
+🌿 Todas as branches
+📝 Histórico de commits da branch main
+A branch main funciona como ponto de entrada para a apresentação e a documentação geral do projeto. As implementações devem ser consultadas diretamente nas respectivas branches.
 
-A branch main contém o README principal e serve como ponto de entrada para a documentação do projeto. Para consultar implementações específicas, acesse a branch correspondente.
+Importante: os arquivos, recursos e requisitos podem variar entre as branches. Consulte a documentação e o código de cada uma antes de executar qualquer implementação.
 
-Importante: os arquivos e as funcionalidades disponíveis podem variar entre as branches. Consulte cada uma para verificar seu conteúdo e estado atual.
-🔍 Eventos de segurança em foco
+---
 
-O projeto tem como foco a identificação de situações como:
+## 🔍 Eventos de segurança em foco
 
-Falhas de autenticação: tentativas de login inválidas ou repetidas.
-Alterações em arquivos sensíveis: modificações que merecem investigação.
-Execuções não autorizadas: atividades potencialmente incompatíveis com o comportamento esperado.
-Eventos relevantes em logs: informações que podem auxiliar na investigação de incidentes.
+O projeto tem como objetivo explorar o monitoramento de diferentes situações relevantes para a segurança da informação:
+🔑 Falhas de autenticação: identificação de tentativas de login inválidas ou repetidas.
+📁 Alterações em arquivos sensíveis: acompanhamento de modificações que possam exigir investigação.
+⚠️ Execuções suspeitas: análise de atividades potencialmente incompatíveis com o comportamento esperado.
+📋 Eventos registrados em logs: coleta e análise de informações que auxiliem na investigação de incidentes.
 
-Esses cenários representam os objetivos de monitoramento do projeto; a cobertura efetiva depende das regras, dos scripts e das configurações implementados em cada branch.
+A detecção efetiva desses eventos depende das fontes de logs, das regras de análise, dos scripts e das configurações implementadas em cada branch.
 
-⚙️ Como explorar o projeto
-Acesse a página principal do repositório.
-Abra a lista de branches disponíveis.
-Selecione a branch que contém a implementação desejada.
-Consulte os arquivos de configuração, scripts, workflows e instruções existentes nessa branch.
-Antes de executar qualquer componente, verifique os requisitos e as dependências documentados.
+---
 
-Não existe um único procedimento de instalação descrito aqui porque as etapas podem depender da implementação específica que você deseja executar.
+## ⚙️ Como explorar o projeto
+Para navegar pelo código e conhecer as implementações disponíveis:
 
-🔐 Segurança
+Acesse o repositório do SecureLog Monitor.
+Consulte a lista de branches.
+Selecione a branch correspondente à funcionalidade que deseja analisar.
+Explore os scripts, arquivos de configuração, workflows e demais componentes disponíveis.
+Verifique os requisitos e as instruções específicas antes de executar qualquer implementação.
+Instalação e execução: os procedimentos dependem da branch selecionada e das ferramentas utilizadas em cada implementação. Consulte os arquivos de instruções e dependências disponíveis no código correspondente.
 
-Como o projeto trabalha com monitoramento e eventos de segurança:
+---
 
-Não compartilhe senhas, tokens, chaves de API ou credenciais nos arquivos do repositório.
-Utilize dados de teste sempre que possível.
-Revise as permissões e as configurações antes de executar scripts ou workflows.
-Teste as implementações em um ambiente controlado.
+## 🔐 Segurança e boas práticas
+Como o projeto está relacionado ao monitoramento e à segurança da informação, recomenda-se:
+
+🔒 Não publicar senhas, tokens, chaves de API ou outras credenciais.
+🧪 Utilizar dados de teste sempre que possível.
+🛠️ Revisar as permissões e configurações antes de executar scripts ou workflows.
+🖥️ Realizar testes em ambientes controlados.
+📋 Documentar alterações e requisitos específicos de cada implementação.
 🚧 Estado do projeto
+O SecureLog Monitor está estruturado em branches independentes, permitindo desenvolver, testar e avaliar diferentes partes da solução de forma organizada.
+A evolução do projeto pode ser acompanhada por meio das branches e dos respectivos históricos de commits.
 
-O SecureLog Monitor está organizado por branches, que permitem desenvolver e avaliar diferentes partes da solução de maneira independente.
+---
 
-Para acompanhar o código disponível e as alterações mais recentes, consulte o histórico de commits e a lista de branches.
-
-👨‍💻 Autor
-
+## 👨‍💻 Autor
 Desenvolvido por @Nistezy404.
 
-Projeto de estudo e desenvolvimento na área de monitoramento de logs, automação e segurança da informação.
+---
+
+Projeto de estudo e desenvolvimento nas áreas de Segurança da Informação, Monitoramento de Logs, Automação e Detecção de Eventos Suspeitos.
+
+SecureLog Monitor — explorando práticas de monitoramento e automação para fortalecer a segurança de sistemas.
