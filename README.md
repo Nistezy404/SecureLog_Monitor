@@ -7,7 +7,7 @@ O desenvolvimento é organizado em branches independentes, permitindo separar fu
 
 ---
 
-## 🎯 Objetivos
+### 🎯 Objetivos
 
 📊 Centralizar e acompanhar eventos relevantes para a segurança.
 🔎 Identificar comportamentos potencialmente suspeitos por meio da análise de logs.
