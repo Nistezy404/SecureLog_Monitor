@@ -17,7 +17,7 @@ O desenvolvimento é organizado em branches independentes, permitindo separar fu
 
 ---
 
-## 🧰 Tecnologias
+### 🧰 Tecnologias
 
 Tecnologia	Finalidade
 🐍 Python	Desenvolvimento de scripts, processamento de dados e automações.
@@ -27,7 +27,7 @@ O SecureLog Monitor utiliza branches para separar as diferentes partes do desenv
 
 ---
 
-## 🔗 Links do projeto:
+### 🔗 Links do projeto:
 
 📂 Repositório principal
 🌿 Todas as branches
@@ -38,7 +38,7 @@ Importante: os arquivos, recursos e requisitos podem variar entre as branches. C
 
 ---
 
-## 🔍 Eventos de segurança em foco
+### 🔍 Eventos de segurança em foco
 
 O projeto tem como objetivo explorar o monitoramento de diferentes situações relevantes para a segurança da informação:
 🔑 Falhas de autenticação: identificação de tentativas de login inválidas ou repetidas.
@@ -50,7 +50,7 @@ A detecção efetiva desses eventos depende das fontes de logs, das regras de an
 
 ---
 
-## ⚙️ Como explorar o projeto
+### ⚙️ Como explorar o projeto
 Para navegar pelo código e conhecer as implementações disponíveis:
 
 Acesse o repositório do SecureLog Monitor.
@@ -62,7 +62,7 @@ Instalação e execução: os procedimentos dependem da branch selecionada e das
 
 ---
 
-## 🔐 Segurança e boas práticas
+### 🔐 Segurança e boas práticas
 Como o projeto está relacionado ao monitoramento e à segurança da informação, recomenda-se:
 
 🔒 Não publicar senhas, tokens, chaves de API ou outras credenciais.
@@ -76,7 +76,7 @@ A evolução do projeto pode ser acompanhada por meio das branches e dos respect
 
 ---
 
-## 👨‍💻 Autor
+### 👨‍💻 Autor
 Desenvolvido por @Nistezy404.
 
 ---
